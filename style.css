@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  body{
+     background-color: white;
+     min-height: 100vh;
+  }
+  a{
+      text-decoration: none;
+  }
+  ul{
+      list-style: none;
+  }
+  button{
+      border: none;
+  }
+
+  nav{
+      display: flex;
+      padding-left: 20px;
+      padding-right: 20px;
+      align-items: center;
+      min-height: 6vh;
+      background-color: black;
+  }
+  .logo{
+      width: 70%;
+  }
+  .logo h3{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #menu-1{
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+  }
+  #menu-1 a{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #hero{
+      background-color: black;
+      height: 94vh;
+      width: 100%;
+      background-image: url(images/Group\ 1.png);
+      background-size:     cover;                    
+      background-repeat:   no-repeat;
+      background-position: center center;
+      box-shadow: inset 0px 10px 15px #000000, inset -15px -10px 10px #000000;
+  }
+  #hero-header{
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      height: 100%;
+  }
+  #hero-images{
+      width: 60%;
+  }
+  #tiago{
+      height: 100%;
+      z-index: 3;
+      position: absolute;
+  }
+  #vector{
+      margin: -40px;
+      z-index: 2;
+      position: absolute;
+      height: 140%;
+  }
+
+  #hero-text{
+      width: 40%;
+      margin: 0% auto;
+      display: flex;
+      align-items: center;
+  }
+  #htext{
+    text-align: center;
+    margin: auto;
+    margin: 20px;
+  }
+
+  #htext h3{
+      font-size: 28px;
+      font-weight: 400;
+      color: #0085FF;
+  }
+
+  #htext h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
