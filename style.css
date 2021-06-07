@@ -101,3 +101,129 @@
     font-weight: 800;
     color: white;
 }
+#story{
+    height: 60vh;
+    background-color: #004686;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#story-text{
+    width: 900px;
+    text-align: center;
+}
+#story-text h3{
+
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+#story-text p{
+
+    font-size:18px;
+    font-weight: 400;
+    color: white;
+}
+
+#services{
+    background-color: black;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+#services-text{
+    width: 900px;
+    text-align: center;
+    flex:1;
+    margin: 30px auto;
+}
+
+#services-text h3{
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 40px;
+}
+#services-q h4{
+    font-size:24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+#d-line{
+    
+    margin: 40px auto;
+    width: 250px;
+    height: 0.5px;
+    display: block;
+    background-color: #004686;
+}
+#services-q p{
+    color: white;
+}
+#tlist{
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+}
+
+#services-q2{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+}
+
+#services-q2 h4{
+
+    font-size:24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
+}
+#s-text{
+    
+    text-align: left;
+    display: inline-block;
+}
+#services-q2 h4{
+
+    font-size:24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
+}
+#s-text h6{
+    font-size:16px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+#s-text p{
+    
+    font-size:12px;
+    font-weight: 300;
+    color: white;
+}
+
+#s-text h5{
+    text-align: center;
+    font-size:14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
