@@ -27,7 +27,7 @@
       background-color: black;
   }
   .logo{
-      width: 70%;
+      width: 60%;
   }
   .logo h3{
     color: white;
@@ -39,7 +39,7 @@
   #menu-1{
       display: flex;
       justify-content: space-around;
-      width: 30%;
+      width: 40%;
   }
   #menu-1 a{
     color: white;
@@ -90,6 +90,10 @@
     margin: 20px;
   }
 
+  #htext img{
+      width: 350px;
+  }
+
   #htext h3{
       font-size: 28px;
       font-weight: 400;
@@ -102,7 +106,6 @@
     color: white;
 }
 #story{
-    height: 60vh;
     background-color: #004686;
     background-image: url(images/image\ 4.png);
     background-size:     cover;                    
@@ -113,6 +116,7 @@
     justify-content: center;
 }
 #story-text{
+    margin: 40px;
     width: 900px;
     text-align: center;
 }
@@ -126,8 +130,8 @@
 
 
 #story-text p{
-
-    font-size:18px;
+    margin-bottom: 10px;
+    font-size:16px;
     font-weight: 400;
     color: white;
 }
@@ -143,7 +147,7 @@
     justify-content: center;   
 }
 #services-text{
-    width: 900px;
+    width: 1000px;
     text-align: center;
     flex:1;
     margin: 30px auto;
@@ -156,8 +160,8 @@
     margin-bottom: 40px;
 }
 #services-q h4{
-    font-size:24px;
-    font-weight: 400;
+    font-size:18px;
+    font-weight: 800;
     color: white;
     margin-bottom: 20px;
 }
@@ -171,6 +175,7 @@
 }
 #services-q p{
     color: white;
+    font-size: 16px;
 }
 #tlist{
     text-align: left;
@@ -186,8 +191,8 @@
 
 #services-q2 h4{
 
-    font-size:24px;
-    font-weight: 400;
+    font-size:18px;
+    font-weight: 800;
     color: white;
     margin-bottom: 10px;
 }
@@ -196,19 +201,12 @@
     text-align: left;
     display: inline-block;
 }
-#services-q2 h4{
-
-    font-size:24px;
-    font-weight: 400;
-    color: white;
-    margin-bottom: 10px;
-}
 #s-text h6{
     font-size:16px;
-    font-weight: 400;
+    font-weight: 600;
     color: white;
     margin-bottom: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 #s-text p{
@@ -216,14 +214,543 @@
     font-size:12px;
     font-weight: 300;
     color: white;
+    margin-bottom: 20px;
 }
 
 #s-text h5{
     text-align: center;
-    font-size:14px;
+    font-size:12px;
     font-weight: 400;
     color: white;
     margin-bottom: 5px;
     margin-top: 20px;
 
 }
+
+#benefits{
+    background-color: #004686;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#benefits-items{
+    width: 600px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#benefits-items h3{
+
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#benefits-items h4{
+    font-size:16px;
+    font-weight: 600;
+    color: white;
+
+}
+
+#benefits-text{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+#benefits-text h5{
+    
+    font-size:16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#benefits-text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#img-chart{
+    width: 70%;
+    margin: 40px 0;
+}
+
+#benefits-text2{
+    display: inline-block;
+    text-align: left;
+}
+
+#benefits-text2 h6{
+    
+    font-size:16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+#benefits-text2 p{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#testimonials{
+    
+    background-color: black;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#testimonials-items h3{
+    
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#testimonials-items{
+    
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+.carousel {
+    width: 1000px;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-cell {
+    width: 33%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .flickity-page-dots {
+    bottom: 0px;
+  }
+  /* white circles */
+  .flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid #DEDEDE;
+  }
+  /* fill-in selected dot */
+  .flickity-page-dots .dot.is-selected {
+    background: #004686;
+    border: 2px solid #004686;
+  }
+
+
+  .flickity-prev-next-button.previous {
+    width: 80px;
+    height: 80px;
+    background: none;
+    color: white;
+  }
+
+  .flickity-prev-next-button.previous:hover{
+      
+    background: none;
+    color: white;
+  }
+
+  .flickity-prev-next-button.next {
+    width: 80px;
+    height: 80px;
+    background: none;
+    color: white;
+  }
+
+  
+  .flickity-prev-next-button.next:hover{
+      
+    background: none;
+    color: white;
+  }
+
+
+  .flickity-prev-next-button {
+    width: 30px;
+    height: 30px;
+  }
+  #transformations{
+      background-color: #004686;
+      background-image: url(images/image\ 4.png);
+      background-size:     cover;                    
+      background-repeat:   no-repeat;
+      background-position: center center;
+      display: flex;
+      align-items: center;
+      justify-content: center;   
+
+  }
+
+  #transformations-items h3{
+    
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#transformations-items{
+    
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+  /* fill-in selected dot */
+  #transformations-items  .flickity-page-dots .dot.is-selected {
+    background: #DEDEDE;
+    border: 2px solid #DEDEDE;
+  }
+  #transformations-items #tvideo img{
+    width: 100%;
+}
+
+#transformations-items #tvideo{
+    margin: 0 auto;
+}
+
+
+#pricing{
+    background-color: black;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#pricing-items{
+    
+    width: 1000px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+
+#pricing h3{
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content-table {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    margin: 0;
+    font-size: 16px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .content-table thead tr {
+    background-color: white;
+    color: #0085FF;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #tr2{
+      
+    background-color: #74B0E8;
+    color: white;
+  }
+  
+  #tr3{
+      
+    background-color: #0085FF;
+    color: white;
+  }
+  
+  #ttitle{
+      text-align: left;
+  }
+
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    color: #0085FF;
+    font-weight: 800;
+  }
+  
+  .content-table tbody {
+    background-color: #f3f3f3;
+  }
+  
+  #pricing-text{
+      display: flex;
+  }
+  #prtext{
+    width: 50%;
+    text-align: left;
+  }
+  #prtext p{
+      color: white;
+      font-weight: 600;
+      margin-top: 20px;
+      font-size: 12px;
+  }
+#primage{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+#primage img{
+    width: 450px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sign-up{
+    
+    background-color: #004686;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up-items{
+    width: 600px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#sign-up-items h3{
+    
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+#sign-up-text{
+    margin-bottom: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+#sign-up-text h6{
+    
+    font-size:16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+#sign-up-text p{
+    
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+#coaching{
+    background-color: black;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#coaching-items{
+    
+    width: 600px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+#coaching-items h3{
+    
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+#coaching-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#coaching-left{
+    width: 50%;
+    text-align: left;
+}
+#coaching-right{
+    width: 50%;
+}
+
+#coaching-text h6{
+    font-size:16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#coaching-right img{
+    padding: 10px;
+    width: 100%;
+}
+
+#coaching-text p{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#coaching-text{
+    text-align: left;
+}
+
+
+#contact{
+    
+    background-color: #004686;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#contactme{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactme input{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+.contactme textarea{
+  margin-top: 30px;
+  color: white;
+  resize: none;
+  height: 100px;
+  
+}
+#disclaimer{
+text-align: right;
+color: white;
+}
+#disclaimer h4{
+    font-size: 12px;
+}
+.contactme h1{
+    font-size:36px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contactme h3{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+.contactme h4{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+.cinput{
+    display: block;
+  margin: 0 auto;
+  width: 50%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  }
+
+  
+.pc
+{
+  margin-top: 20px;
+}
+button{
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  padding:1.3rem 3rem;
+  border: 1px solid white;
+  background-color: transparent;
+  background-size: 130%;
+  background-position: 500%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  transition-property: background-position,border,color;
+  position: relative;
+  z-index: 1;
+  color: white;
+
+}
+.pc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#copyright{
+    margin-top: 80px;
+    text-align: center;
+}
+#copyright p{
+    font-size: 12px;
+    color: white;
+}
+
