@@ -754,3 +754,9 @@ button{
     color: white;
 }
 
+#captcha{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

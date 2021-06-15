@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
 
 </head>
 <body>
@@ -412,16 +413,19 @@
         <div class="contactme">
             <h1>CONTACT</h1>
             <h4>If you want to apply for coaching, if you just want to ask me a question, feel free to use the form below.</h4>
-            <form method="POST"  action="https://formspree.io/f/xbjqykle"
+            <form method="POST"  action="https://submit-form.com/VMlOGwPh"
             method="POST">
             <h3>Name:</h3>
-            <input class="cinput" type="text" name="name" required>
+            <input class="cinput" type="text" name="name" for="name" required>
             
             <h3>Email:</h3>
-            <input class="cinput" type="email" name="_replyto" required>
+            <input class="cinput" type="email" id="email" name="email" for="email" required>
             
             <h3>Message:</h3>
-            <textarea class="cinput" spellcheck="false" cols="30" rows="10" name="message"></textarea required>
+            <textarea class="cinput" spellcheck="false" cols="30" rows="10" name="message" id="message"></textarea required>
+                
+        <div id="captcha">
+            <div class="h-captcha" data-sitekey="8e3c74c6-b656-42af-8129-c20f390074ad"></div></div>
             
             <div class="pc">
                 <div class="borders">
@@ -430,7 +434,11 @@
         </div>
         <div id="copyright"><p>Copyright © TiagoFalerio 2021</p></div>
     </section>
-
+    <script>
+        $('#myModal').on( 'shown.bs.modal', function( event ) {
+  $('.gallery').flickity('resize');
+});
+    </script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
         speed:1000;
