@@ -12,10 +12,17 @@
     <script src="https://hcaptcha.com/1/api.js" async defer></script>
     
     <script>
+        $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
+});
         $('#myModal').on( 'shown.bs.modal', function( event ) {
   $('.gallery').flickity('resize');
 });
     </script>
+    
+    
 </head>
 <body>
     <section id="header">
@@ -153,7 +160,7 @@
         <div id="testimonials-items">
             <h3>TESTIMONIALS</h3>
             
-            <div class="carousel" data-flickity='{ "wrapAround": true, "groupCells": true }'>
+            <div class="carousel" data-flickity='{ "wrapAround": true, "groupCells": 2,"groupCells": true }'>
                 <div class="carousel-cell">
                     <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
                 </div>
@@ -189,7 +196,7 @@
         <div id="transformations-items">
             <h3>TRANSFORMATIONS</h3>
             
-            <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "groupCells": true }'>
+            <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "groupCells": true,"adaptiveHeight": true }'>
                 <div class="carousel-cell">
                     <div id="tvideo"> 
                     <img src="images/william1.png" alt="">
@@ -267,7 +274,7 @@
                     <th>SILVER PACKAGE</th>
                   </tr>
                   <div id="disclaimer">
-                      <h4>*Limited Spots Available</h4></div>
+                      <h4>*Limited Spots Available for Gold Package</h4></div>
                 </thead>
                 <tbody>
                   <tr>
@@ -444,7 +451,7 @@
         speed:1000;
         speedAsDuration:true;
     </script>
-
+    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <body onLoad="disableClick()"> 

@@ -91,7 +91,7 @@
   }
 
   #htext img{
-      width: 350px;
+      width: 500px;
   }
 
   #htext h3{
@@ -211,7 +211,7 @@
 }
 #s-text p{
     
-    font-size:12px;
+    font-size:16px;
     font-weight: 300;
     color: white;
     margin-bottom: 20px;
@@ -219,8 +219,8 @@
 
 #s-text h5{
     text-align: center;
-    font-size:12px;
-    font-weight: 400;
+    font-size:16px;
+    font-weight: 800;
     color: white;
     margin-bottom: 5px;
     margin-top: 20px;
@@ -269,13 +269,13 @@
 #benefits-text h5{
     
     font-size:16px;
-    font-weight: 600;
+    font-weight: 800;
     color: white;
     margin-bottom: 10px;
 }
 
 #benefits-text p{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     color: white;
     margin-bottom: 30px;
@@ -294,12 +294,12 @@
 #benefits-text2 h6{
     
     font-size:16px;
-    font-weight: 600;
+    font-weight: 800;
     color: white;
     margin-bottom: 20px;
 }
 #benefits-text2 p{
-    font-size: 12px;
+    font-size: 16px;
     color: white;
     margin-bottom: 10px;
 }
@@ -330,13 +330,21 @@
     margin: 30px auto;
 }
 
+#testimonials-items .carousel-cell{
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
 
 .carousel {
     width: 1000px;
+    height: auto;
     margin-bottom: 40px;
   }
   
-  .carousel-cell {
+  #transformations .carousel-cell {
     width: 33%;
     margin-right: 10px;
     margin-left: 10px;
@@ -515,22 +523,22 @@
       display: flex;
   }
   #prtext{
-    width: 50%;
+    width: 45%;
     text-align: left;
   }
   #prtext p{
       color: white;
       font-weight: 600;
       margin-top: 20px;
-      font-size: 12px;
+      font-size: 14px;
   }
 #primage{
-    width: 50%;
+    width: 55%;
     display: flex;
     justify-content: flex-end;
 }
 #primage img{
-    width: 450px;
+    width: 550px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -572,7 +580,7 @@
 #sign-up-text h6{
     
     font-size:16px;
-    font-weight: 600;
+    font-weight: 800;
     color: white;
     margin-bottom: 20px;
 }
@@ -580,7 +588,8 @@
 
 #sign-up-text p{
     
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 400;
     color: white;
     margin-bottom: 10px;
 }
@@ -630,18 +639,21 @@
 
 #coaching-text h6{
     font-size:16px;
-    font-weight: 600;
+    font-weight: 800;
     color: white;
     margin-bottom: 20px;
 }
 
 #coaching-right img{
     padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     width: 100%;
 }
 
 #coaching-text p{
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 400;
     color: white;
     margin-bottom: 40px;
 }
