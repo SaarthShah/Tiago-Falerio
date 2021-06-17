@@ -330,13 +330,29 @@
     margin: 30px auto;
 }
 
-#testimonials-items .carousel-cell{
+#testimonials-items .swiper-container{
+    width: 1000px;
+    height: 420px;
+}
+
+
+
+:root {
+    --swiper-theme-color: white;
+}
+
+.swiper-button-next { color: red; }
+
+
+.c-cell{
     width: 70%;
     margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
 }
+
+#transformations-items .swiper-container {
+    width: 1000px;
+    height: 350px;
+  }
 
 .carousel {
     width: 1000px;

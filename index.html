@@ -7,20 +7,11 @@
     <title>Tiago Falerio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><!-- CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Interhttps://unpkg.com/swiper/swiper-bundle.css:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><!-- CSS -->
+    <link rel="stylesheet" href="swiper-bundle.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
     <script src="https://hcaptcha.com/1/api.js" async defer></script>
-    
-    <script>
-        $('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-        $('#myModal').on( 'shown.bs.modal', function( event ) {
-  $('.gallery').flickity('resize');
-});
-    </script>
+ 
     
     
 </head>
@@ -156,110 +147,147 @@
         </div>
     </section>
 
+
     <section id="testimonials">
         <div id="testimonials-items">
             <h3>TESTIMONIALS</h3>
             
-            <div class="carousel" data-flickity='{ "wrapAround": true, "groupCells": 2,"groupCells": true }'>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"><iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe></div>
-                </div>
-              </div>
-
         
+           <!-- Slider main container -->
+           <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+
+            <div class="swiper-slide">
+                <div id="tvideo"> 
+                    <iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="tvideo"> 
+                    <iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="tvideo"> 
+                    <iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="tvideo"> 
+                    <iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="tvideo"> 
+                    <iframe src="https://player.vimeo.com/video/559077470?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Eric Testimonial"></iframe>
+                </div>
+            </div>
+
+
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        </div>
         
         </div>
     </section>
 
+
+    
     <section id="transformations">
         <div id="transformations-items">
             <h3>TRANSFORMATIONS</h3>
             
-            <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "groupCells": true,"adaptiveHeight": true }'>
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/william1.png" alt="">
+           <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                        <img src="images/kevin.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/thomas.png" alt="">
+
+                    <div class="swiper-slide"><div id="tvideo"> 
+                        <img src="images/thomas.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/suad.png" alt="">
+
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/suad.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/skk.png" alt="">
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/william1.png" alt="">
+                        </div>
                     </div>
-                </div>
+                    
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/skk.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/sarah.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/m.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/lewis.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/jean.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/jeremy.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                            <img src="images/eric.png" alt="">
+                        </div>
+                    </div>
+
+                    ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                 
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/sarah.png" alt="">
-                    </div>
-                </div>
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/m.png" alt="">
-                    </div>
-                </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/lewis.png" alt="">
-                    </div>
                 </div>
-
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/kevin.png" alt="">
-                    </div>
-                </div>
-
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/jeremy.png" alt="">
-                    </div>
-                </div>
-
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/jean.png" alt="">
-                    </div>
-                </div>
-
-                <div class="carousel-cell">
-                    <div id="tvideo"> 
-                    <img src="images/eric.png" alt="">
-                    </div>
-                </div>
-                
-              </div>
         </div>
     </section>
     
@@ -452,8 +480,23 @@
         speedAsDuration:true;
     </script>
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<body onLoad="disableClick()"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper-container', {
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    slidesPerView: 3,
+        spaceBetween: 30,
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>    
 </body>
 </html>
