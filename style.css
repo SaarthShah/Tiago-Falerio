@@ -646,11 +646,7 @@
 }
 
 #coaching-left{
-    width: 50%;
     text-align: left;
-}
-#coaching-right{
-    width: 50%;
 }
 
 #coaching-text h6{
@@ -660,10 +656,8 @@
     margin-bottom: 20px;
 }
 
-#coaching-right img{
-    padding: 10px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+#coaching-left img{
+    padding: 70px;
     width: 100%;
 }
 
@@ -671,17 +665,17 @@
     font-size: 16px;
     font-weight: 400;
     color: white;
-    margin-bottom: 40px;
 }
 
 #coaching-text{
     text-align: left;
+    margin-bottom: 20px;
 }
 
 
 #contact{
     
-    background-color: #004686;
+    background-color: black;
     background-image: url(images/image\ 4.png);
     background-size:     cover;                    
     background-repeat:   no-repeat;
@@ -787,4 +781,51 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#tvideo2{
+    width: 300px;
+    height: 350px;
+    background-color: #000000;
+}
+
+
+#tvideo2 img{
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#swiperslider-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+}
+
+#swiperslider-text p{
+    font-size: 14px;
+    color: white;
+}
+
+#articles{
+
+    background-color: #004686;
+    background-image: url(images/image\ 4.png);
+    background-size:     cover;  
+    text-align: center;                
+}
+
+#articles h3{
+    
+    font-size:36px;
+    font-weight: 800;
+    padding-top: 20px;
+    color: white;
+}
+#articles-items{
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
