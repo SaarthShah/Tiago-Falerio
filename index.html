@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiago Falerio</title>
+    <title>Tiago Faleiro</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Interhttps://unpkg.com/swiper/swiper-bundle.css:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><!-- CSS -->
@@ -212,17 +212,18 @@
                     <div class="swiper-wrapper">
                     <!-- Slides -->
 
-                    <div class="swiper-slide">
-                        <div id="tvideo"> 
-                        <img src="images/kevin.png" alt="">
-                        </div>
-                    </div>
 
                     <div class="swiper-slide"><div id="tvideo"> 
                         <img src="images/thomas.png" alt="">
                         </div>
                     </div>
 
+                    
+                    <div class="swiper-slide">
+                        <div id="tvideo"> 
+                        <img src="images/kevin.png" alt="">
+                        </div>
+                    </div>
 
                     <div class="swiper-slide">
                         <div id="tvideo"> 
@@ -470,7 +471,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <a href="https://journals.lww.com/nsca-scj/Citation/publishahead/Mesocycle_Progression_in_Hypertrophy__Volume.99298.aspx"  target="_blank">
+                    <a href="https://journals.lww.com/nsca-scj/Abstract/2020/10000/Mesocycle_Progression_in_Hypertrophy__Volume.2.aspx"  target="_blank">
                         <div id="tvideo2"> 
                         <img src="images/2.png" alt="">
                         <div id="swiperslider-text">
@@ -646,35 +647,99 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
-const swiper1 = new Swiper('.swiper1', {
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-    slidesPerView: 3,
-        spaceBetween: 30,
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
+    var x = window.matchMedia("(max-width: 1050px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+  function myFunction(x) {
+  if (x.matches) { 
+      
+        
+    const swiper1 = new Swiper('.swiper1', {
+        // If we need pagination
+        pagination: {
+        el: '.swiper-pagination',
+        },
+        slidesPerView: 1,
+            spaceBetween: 30,
+        // Navigation arrows
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+    });
+
+
+  } else {
+
+              
+    const swiper1 = new Swiper('.swiper1', {
+        // If we need pagination
+        pagination: {
+        el: '.swiper-pagination',
+        },
+        slidesPerView: 3,
+            spaceBetween: 30,
+        // Navigation arrows
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+    });
+
+  }
+}
+
+
 </script>    
 <script>
+
+ var x = window.matchMedia("(max-width: 1200px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
+
+  function myFunction(x) {
+  if (x.matches) { 
+      
+        
     
     const swiper2 = new Swiper('.swiper2', {
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
     },
-    slidesPerView: 5,
-        spaceBetween: 30,
+    slidesPerView: 3,
+        spaceBetween: 0,
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
   });
+
+
+  }
+  
+  else {
+
+              
+    
+    const swiper2 = new Swiper('.swiper2', {
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    slidesPerView: 4,
+        spaceBetween: 15,
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  } 
+}
 
 </script>
 </body>
