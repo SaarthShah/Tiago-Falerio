@@ -41,6 +41,8 @@
 }
 
 #header2 nav{
+    
+    z-index: 1005;
     display: none;
     justify-content: flex-end;
     align-items: center;
