@@ -42,7 +42,6 @@
 
 #header2 nav{
     
-    z-index: 1005;
     display: none;
     justify-content: flex-end;
     align-items: center;
@@ -63,7 +62,9 @@
 }
 
 
-
+#header{
+    z-index: 2000;
+}
 #header  nav{
       display: flex;
       padding-left: 20px;
@@ -71,6 +72,8 @@
       align-items: center;
       min-height: 6vh;
       background-color: black;
+      z-index: 2000;
+      
   }
   .logo{
       width: 60%;
@@ -86,12 +89,14 @@
       display: flex;
       justify-content: space-around;
       width: 40%;
+      z-index: 2000;
   }
   #menu-1 a{
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
+    z-index: 2000;
   }
   #hero{
       background-color: black;
